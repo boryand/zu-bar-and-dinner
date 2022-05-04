@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+.landing_container {
+  font-family: "Great Vibes", cursive;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: black;
+  color: #cfb53b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: max-content;
+  font-weight: bold;
+}
+
+.landing_container .logo {
+  height: 550px;
+}
+
+.landing_container .message {
+  font-size: 2.5rem;
+}
+
+.landing_container .zu {
+  height: 550px;
+  margin-top: 5%;
+  width: 60%;
+}
+
+.navbar .navvlink {
+  text-decoration: none;
+  margin-right: 2%;
+  margin-left: 3%;
+  font-size: 1.2rem;
+  color: #a17c00;
+}
+
+.navbar .navvlink:hover {
+  color: white;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../media/nav.gif);
+  height: 50px;
+  color: #a17c00;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin-right: 2%;
+  margin-left: 3%;
+  font-size: 1.2rem;
+}
+
+.lunch_container {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lunch_container .lunch_menu {
+  border-bottom: 5px solid #cfb53b;
+  border-top: 5px solid #cfb53b;
+  width: 40%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.lunch_container .lunch_menu .lunch_items {
+  color: #cfb53b;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.2rem;
+}
+
+.main_menu {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 1100px;
+}
+
+.main_menu h3 {
+  color: #cfb53b;
+  font-size: 3rem;
+}
+
+.main_menu .items {
+  margin-right: 20px;
+  font-size: 1.4rem;
+  font-family: "Kalam", cursive;
+  margin-top: 3.5%;
+}
+
+.main_menu .items_price {
+  text-decoration: underline;
+  margin-top: 4%;
+  margin-left: 5%;
+  font-size: 1.4rem;
+  font-family: "Kalam", cursive;
+  color: #cfb53b;
+}
+
+.food_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 15%;
+  margin-top: 15%;
+  width: 1000px;
+}
+
+.food_images .food_images_items {
+  width: 350px;
+  margin-top: 5%;
+}
+
+.cooked_food {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 1000px;
+}
+
+.cooked_food .cooked_food_items {
+  margin-right: 20px;
+  font-size: 1.4rem;
+  font-family: "Kalam", cursive;
+  margin-top: 3.5%;
+}
+
+.cooked_food .cooked_food_items_price {
+  text-decoration: underline;
+  margin-top: 4%;
+  margin-left: 5%;
+  font-size: 1.4rem;
+  font-family: "Kalam", cursive;
+  color: #cfb53b;
+}
+
+.cooked_food .cooked_food_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.cooked_food .cooked_food_images .cooked_images_items {
+  width: 350px;
+  margin-top: 5%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

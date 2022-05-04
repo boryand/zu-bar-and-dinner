@@ -1,0 +1,34 @@
+.navbar .navvlink {
+  text-decoration: none;
+  margin-right: 2%;
+  margin-left: 3%;
+  font-size: 1.2rem;
+  color: #a17c00;
+}
+
+.navbar .navvlink:hover {
+  color: white;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../media/nav.gif);
+  height: 50px;
+  color: #a17c00;
+}
+
+.navbar li {
+  list-style-type: none;
+  margin-right: 2%;
+  margin-left: 3%;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=navbar.css.map */
