@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+.landing_container {
+  font-family: "Great Vibes", cursive;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: black;
+  color: #cfb53b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: max-content;
+  font-weight: bold;
+}
+
+.landing_container .logo {
+  height: 550px;
+}
+
+.landing_container .message {
+  font-size: 2.5rem;
+}
+
+.landing_container .zu {
+  height: 550px;
+  margin-top: 5%;
+  width: 60%;
+}
+/*# sourceMappingURL=landing.css.map */
