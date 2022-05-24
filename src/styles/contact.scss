@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+
+.contact_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-image: url(../media/nav.gif);
+}
+
+.contact_div_1 {
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+text-align: center;
+  color: #cfb53b;
+}
+
+.name {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 5rem;
+}
+
+.contact_link {
+  margin-top: 60px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #cfb53b;
+}
+
+@mixin mobile5 {
+  .contact_div_1 {
+    width: 320px;
+    text-align: center;
+  }
+
+  h1.name {
+    font-size: 2rem;
+    margin-left: 0%;
+  }
+
+  .contact_link {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  @include mobile5();
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+  @include mobile5();
+  h1.name {
+    font-size: 3rem;
+  }
+}
+
+
+@media only screen and (min-width: 376px) and (max-width: 476px) {
+  @include mobile5();
+  h1.name {
+    font-size: 3rem;
+  }
+}

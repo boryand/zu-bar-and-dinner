@@ -15,9 +15,6 @@ const Landing = () => {
   return (
     <div className="landing_container">
       <img className="logo" src={logo} />
-      <h1 className="message">
-        Genießen Sie den Luxus, Sie haben es sich verdient !
-      </h1>
 
       <Slide left>
         <img className="zu" src={z10} alt="" />

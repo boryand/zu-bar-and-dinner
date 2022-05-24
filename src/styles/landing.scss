@@ -2,14 +2,14 @@
 
 .landing_container {
   font-family: "Great Vibes", cursive;
-  height: max-content;
+  height: 6300px;
   background-color: black;
   color: #cfb53b;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: max-content;
+
   font-weight: bold;
 
   .logo {
@@ -17,6 +17,7 @@
   }
   .message {
     font-size: 2.5rem;
+    color: red;
   }
 
   .zu {
@@ -24,4 +25,33 @@
     margin-top: 5%;
     width: 60%;
   }
+}
+
+@mixin mobile {
+  .landing_container {
+    height: 4700px;
+  }
+  .logo {
+    width: 320px;
+    align-self: flex-end;
+    margin-top: 50px;
+  }
+
+  .landing_container .zu {
+    width: 90%;
+    height: 400px;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  @include mobile();
+}
+
+@media only screen and (min-width: 321px) and (max-width:376px) {
+  @include mobile();
+}
+
+@media only screen and (min-width: 376px) and (max-width:476px) {
+  @include mobile();
 }

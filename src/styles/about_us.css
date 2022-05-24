@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Tapestry&display=swap");
+.about_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.about_us .mess1 {
+  text-align: center;
+  color: #a17c00;
+  font-size: 5rem;
+  font-family: "Tapestry", cursive;
+}
+
+.about_us .map {
+  height: 450px;
+  width: 650px;
+  margin-right: 50px;
+}
+
+.about_us_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 321px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 476px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 476px) and (max-width: 576px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+  .about_us .map {
+    height: 450px;
+    width: 450px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 676px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+  .about_us .map {
+    height: 450px;
+    width: 450px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 676px) and (max-width: 776px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+  .about_us .map {
+    height: 450px;
+    width: 450px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 776px) and (max-width: 876px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+  .about_us .map {
+    height: 450px;
+    width: 450px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 876px) and (max-width: 976px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+  .about_us .map {
+    height: 450px;
+    width: 450px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media only screen and (min-width: 976px) and (max-width: 1076px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+  .about_us .map {
+    height: 450px;
+    width: 450px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 450px;
+    height: 450px;
+  }
+  .about_us_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1076px) and (max-width: 1176px) {
+  .about_us_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about_us .map {
+    height: 250px;
+    width: 320px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 320px;
+    height: 320px;
+  }
+  .about_us .mess1 {
+    font-size: 3rem;
+  }
+  .about_us .map {
+    height: 450px;
+    width: 450px;
+    margin-right: 0px;
+  }
+  .vid {
+    width: 450px;
+    height: 450px;
+  }
+  .about_us_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=about_us.css.map */

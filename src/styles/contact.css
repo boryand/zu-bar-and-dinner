@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+.contact_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  background-image: url(../media/nav.gif);
+}
+
+.contact_div_1 {
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #cfb53b;
+}
+
+.name {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 5rem;
+}
+
+.contact_link {
+  margin-top: 60px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #cfb53b;
+}
+
+@media only screen and (max-width: 321px) {
+  .contact_div_1 {
+    width: 320px;
+    text-align: center;
+  }
+  h1.name {
+    font-size: 2rem;
+    margin-left: 0%;
+  }
+  .contact_link {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+  .contact_div_1 {
+    width: 320px;
+    text-align: center;
+  }
+  h1.name {
+    font-size: 2rem;
+    margin-left: 0%;
+  }
+  .contact_link {
+    font-size: 1rem;
+  }
+  h1.name {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 476px) {
+  .contact_div_1 {
+    width: 320px;
+    text-align: center;
+  }
+  h1.name {
+    font-size: 2rem;
+    margin-left: 0%;
+  }
+  .contact_link {
+    font-size: 1rem;
+  }
+  h1.name {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
