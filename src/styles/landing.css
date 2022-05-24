@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 .landing_container {
   font-family: "Great Vibes", cursive;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  height: 6300px;
   background-color: black;
   color: #cfb53b;
   display: -webkit-box;
@@ -19,7 +17,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: max-content;
   font-weight: bold;
 }
 
@@ -29,11 +26,63 @@
 
 .landing_container .message {
   font-size: 2.5rem;
+  color: red;
 }
 
 .landing_container .zu {
   height: 550px;
   margin-top: 5%;
   width: 60%;
+}
+
+@media only screen and (max-width: 321px) {
+  .landing_container {
+    height: 4700px;
+  }
+  .logo {
+    width: 320px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-top: 50px;
+  }
+  .landing_container .zu {
+    width: 90%;
+    height: 400px;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+  .landing_container {
+    height: 4700px;
+  }
+  .logo {
+    width: 320px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-top: 50px;
+  }
+  .landing_container .zu {
+    width: 90%;
+    height: 400px;
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 476px) {
+  .landing_container {
+    height: 4700px;
+  }
+  .logo {
+    width: 320px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-top: 50px;
+  }
+  .landing_container .zu {
+    width: 90%;
+    height: 400px;
+    margin-top: 10%;
+  }
 }
 /*# sourceMappingURL=landing.css.map */

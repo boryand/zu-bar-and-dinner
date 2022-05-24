@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+.footer_container {
+  background-color: #af5151;
+  color: #cfb53b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5rem;
+  background-image: url(../media/footer.png);
+}
+
+.footer_container a {
+  color: #cfb53b;
+}
+
+.footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer2 a {
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 320px) {
+  .footer_container {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 376px) {
+  .footer_container {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 476px) {
+  .footer_container {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 476px) and (max-width: 576px) {
+  .footer_container {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
