@@ -929,6 +929,7 @@ a {
 
 .kitchen_images_items {
   height: 400px;
+  width: 360px;
   margin-right: 5%;
   margin-top: 5%;
 }
@@ -1290,7 +1291,7 @@ a {
 
 @media only screen and (min-width: 476px) and (max-width: 576px) {
   .footer_container {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
