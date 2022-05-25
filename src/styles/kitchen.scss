@@ -15,26 +15,26 @@
 
 .kitchen_images_items {
   height: 400px;
+  width: 360px;
   margin-right: 5%;
   margin-top: 5%;
- 
 }
 
- @mixin mobile4 {
-   .kitchen_images {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-   }
-   .kitchen_images_items {
-     margin-right: 0;
-     margin-top: 5%;
-     margin-bottom: 5%;
-   }
- }
-@media only screen and (max-width:321px){
-  @include mobile4()
+@mixin mobile4 {
+  .kitchen_images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .kitchen_images_items {
+    margin-right: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 321px) {
+  @include mobile4();
 }
 @media only screen and (min-width: 321px) and (max-width: 376px) {
   @include mobile4();
@@ -43,50 +43,44 @@
   @include mobile4();
   .kitchen_images_items {
     width: 350px;
-    height:450px;
+    height: 450px;
   }
 }
 @media only screen and (min-width: 476px) and (max-width: 576px) {
   @include mobile4();
   .kitchen_images_items {
     width: 350px;
-    height:450px;
+    height: 450px;
   }
- 
 }
 @media only screen and (min-width: 576px) and (max-width: 676px) {
   @include mobile4();
   .kitchen_images_items {
     width: 350px;
-    height:450px;
+    height: 450px;
   }
-
 }
 
 @media only screen and (min-width: 676px) and (max-width: 776px) {
   @include mobile4();
   .kitchen_images_items {
     width: 350px;
-    height:450px;
+    height: 450px;
   }
-
 }
 
 @media only screen and (min-width: 776px) and (max-width: 876px) {
   @include mobile4();
   .kitchen_images_items {
     width: 350px;
-    height:450px;
+    height: 450px;
   }
-
 }
 
 @media only screen and (min-width: 876px) and (max-width: 976px) {
   @include mobile4();
   .kitchen_images_items {
     width: 350px;
-    height:450px;
+    height: 450px;
   }
-
 }
-
