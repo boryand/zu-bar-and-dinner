@@ -16,33 +16,31 @@ const Landing = () => {
     <div className="landing_container">
       <img className="logo" src={logo} />
 
-      <Slide left>
+     
         <img className="zu" src={z10} alt="" />
-      </Slide>
-      <Slide right>
+     
         <img className="zu" src={z2} alt="" />
-      </Slide>
-      <Slide left>
+   
+     
         <img className="zu" src={z3} alt="" />
-      </Slide>
-      <Slide right>
+   
         <img className="zu" src={z4} alt="" />
-      </Slide>
-      <Slide left>
+   
+   
         <img className="zu" src={z5} alt="" />
-      </Slide>
-      <Slide right>
+    
+      
         <img className="zu" src={z6} alt="" />
-      </Slide>
-      <Slide left>
+   
+
         <img className="zu" src={z7} alt="" />
-      </Slide>
-      <Slide right>
+    
+ 
         <img className="zu" src={z8} alt="" />
-      </Slide>
-      <Slide left>
+     
+      
         <img className="zu" src={z1} alt="" />
-      </Slide>
+   
     </div>
   );
 };
