@@ -21,7 +21,13 @@ const Landing = () => {
         }
       />
 
-      <img className="zu" src={z10} alt="" />
+      <img
+        className="zu"
+        src={
+          "https://www.falstaff.de/fileadmin/_processed_/b/6/csm_Restaurant-der-Woche-Deutschland-c-Shutterstock-2640_f7812a7162.jpg"
+        }
+        alt=""
+      />
 
       <img className="zu" src={z2} alt="" />
 
