@@ -14,33 +14,30 @@ import z10 from "../media/z10.jpeg";
 const Landing = () => {
   return (
     <div className="landing_container">
-      <img className="logo" src={logo} />
+      <img
+        className="logo"
+        src={
+          "https://www.falstaff.de/fileadmin/_processed_/b/6/csm_Restaurant-der-Woche-Deutschland-c-Shutterstock-2640_f7812a7162.jpg"
+        }
+      />
 
-     
-        <img className="zu" src={z10} alt="" />
-     
-        <img className="zu" src={z2} alt="" />
-   
-     
-        <img className="zu" src={z3} alt="" />
-   
-        <img className="zu" src={z4} alt="" />
-   
-   
-        <img className="zu" src={z5} alt="" />
-    
-      
-        <img className="zu" src={z6} alt="" />
-   
+      <img className="zu" src={z10} alt="" />
 
-        <img className="zu" src={z7} alt="" />
-    
- 
-        <img className="zu" src={z8} alt="" />
-     
-      
-        <img className="zu" src={z1} alt="" />
-   
+      <img className="zu" src={z2} alt="" />
+
+      <img className="zu" src={z3} alt="" />
+
+      <img className="zu" src={z4} alt="" />
+
+      <img className="zu" src={z5} alt="" />
+
+      <img className="zu" src={z6} alt="" />
+
+      <img className="zu" src={z7} alt="" />
+
+      <img className="zu" src={z8} alt="" />
+
+      <img className="zu" src={z1} alt="" />
     </div>
   );
 };
